@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>What-If for Sheets</title>
+<meta name="description" content="Excel-style what-if analysis for Google Sheets: data tables, goal seek, scenario manager and Monte Carlo simulation. Free.">
+<link rel="icon" href="icon-128.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<header><img src="icon-128.png" alt=""><a href="./">What-If for Sheets</a></header>
+<nav><a href="#start">Get started</a><a href="#support">Support</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></nav>
+
+<h1>Excel's What-If Analysis, in Google Sheets</h1>
+<p class="lede">What-If for Sheets brings the four what-if tools Excel users miss most into one sidebar: Data Tables, Goal Seek, Scenario Manager and Monte Carlo simulation. Point it at your existing formulas; no rebuilding required.</p>
+
+<h2>Four tools</h2>
+<ul>
+  <li><b>Data table:</b> vary one or two inputs over a list of values and get a grid of results, like Excel's Data Table. Great for sensitivity tables (price vs volume, rate vs term).</li>
+  <li><b>Goal seek:</b> find the input value that makes a result hit a target, for example the units needed to reach $10,000 profit.</li>
+  <li><b>Scenarios:</b> save named sets of input values, switch between them, and build a side-by-side summary report.</li>
+  <li><b>Simulate:</b> give uncertain inputs a normal, uniform or triangular distribution, run the model hundreds of times, and see the mean, percentiles and a histogram.</li>
+</ul>
+<p>Every run puts your input cells back the way they were, and results are written to a new sheet so your model is never overwritten.</p>
+
+<h2 id="start">Get started</h2>
+<ol>
+  <li>Install What-If for Sheets from the Google Workspace Marketplace.</li>
+  <li>Open <b>Extensions → What-If for Sheets → Load example</b> for a ready-made profit model with all four tools set up, or <b>Open What-If</b> to use your own sheet.</li>
+  <li>Pick cells with <b>Use selection</b>. Value lists can be typed as <code>10, 20, 30</code>, <code>10 to 50 step 10</code> or <code>0 to 1 in 5</code>, or taken from a range.</li>
+</ol>
+
+<div class="card">
+<b>Good to know.</b> Each evaluation recalculates your sheet, so big tables and long simulations take time on large models: roughly a few runs per second. Input cells must hold plain values, not formulas.
+</div>
+
+<h2 id="support">Support</h2>
+<p>Questions or feature requests? <a href="https://github.com/roguemoose/what-if-for-sheets/issues">Open an issue</a>.</p>
+
+<footer>What-If for Sheets · <a href="privacy.html">Privacy policy</a> · <a href="terms.html">Terms of service</a> · Also from us: <a href="https://roguemoose.github.io/optimize-for-sheets/">Optimize for Sheets</a> (Solver) and <a href="https://roguemoose.github.io/alerts-for-sheets/">Alerts for Sheets</a></footer>
+</main>
+</body>
+</html>
