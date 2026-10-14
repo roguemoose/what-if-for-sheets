@@ -33,7 +33,7 @@
 </ol>
 
 <div class="card">
-<b>Good to know.</b> Each evaluation recalculates your sheet, so each cell of a data table and each simulation run takes about a second; a 5x5 table takes under half a minute. Input cells must hold plain values, not formulas.
+<b>Good to know.</b> Most models run in the browser with the built-in fast engine: a 10,000-run simulation or a 100x100 data table takes about a second, and every fast result is checked against Google Sheets first. Models using functions the engine doesn't know yet fall back to recalculating in Sheets (about a second per run). Input cells must hold plain values, not formulas.
 </div>
 
 <h2 id="support">Support</h2>
